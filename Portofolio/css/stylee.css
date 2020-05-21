@@ -1,0 +1,66 @@
+*{
+	text-align: center;
+	background-color: #2d2d2d;
+}
+.text>h1{
+	font-family: Verdana, Tahoma, sans-serif;
+	/*border: 2px solid black;*/
+	margin: 40px 0px;
+	letter-spacing: 25px;
+	text-transform: uppercase;
+	color: #1c1c1c;
+}
+.text>h1:hover{
+	background:linear-gradient( to left,#e65022 25%, #7fb40e,#12a1e3,#f0b30d);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	cursor:no-drop;
+	transition:0.5s;
+}
+.button>a{
+	text-decoration: none;
+	font-family:sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #2d2d2d ;
+
+}
+.container{
+	margin: 60px 0px;
+}
+.b-1>a{
+	padding: 20px 81px;
+	background-color: #e65022;
+	transition: 0.5s;
+}
+.b-1>a:hover{
+	padding: 20px 140px;
+	border-radius: 30px;
+}
+.b-2>a{
+	padding: 20px 69px;
+	background-color: #7fb40e;
+	transition: 0.5s;
+}
+.b-2>a:hover{
+	padding: 20px 140px;
+	border-radius: 30px;
+}
+.b-3>a{
+	padding: 20px 77px;
+	background-color: #12a1e3;
+	transition: 0.5s;
+}
+.b-3>a:hover{
+	padding: 20px 140px;
+	border-radius: 30px;
+}
+.b-4>a{
+	padding: 20px 90px;
+	background-color: #f0b30d;
+	transition: 0.5s;
+}
+.b-4>a:hover{
+	padding: 20px 140px;
+	border-radius: 30px;
+}
